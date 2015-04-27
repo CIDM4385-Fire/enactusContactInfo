@@ -1,0 +1,71 @@
+//Jack did this
+".container": {
+	backgroundColor:"#0096D6"
+}
+
+"#emblem": {
+	width: '150dp',
+	height: '150dp',
+	top : '65dp',
+	left : '6dp',
+	backgroundColor : 'white'
+}
+'#backButton' : {
+	backgroundColor : 'black',
+	//fontColor : 'black',
+	top : '1dp',
+	left : '1dp',
+	textAlign : 'center',
+	width : Ti.UI.SIZE,
+	height : Ti.UI.SIZE
+	//
+}
+'#contactInfo' : {
+	top : '0dp',
+	right : '0dp',
+	width : '45%',
+	height : '45%',
+	textAlign : 'center',
+	fontColor :'black',
+	fontWeight : 'bold'
+}
+'#description' : {
+	fontcolor : 'black',
+}
+'#information' : {
+	width : Ti.UI.FILL,
+	height : '50%',
+	bottom : '0dp',
+}
+'#contactName' : {
+	top : '0dp',
+	textAlign : 'left',
+	borderColor : 'black',
+	width : Titanium.UI.FILL,
+	paddingLeft : '10pd',
+	font : {
+		fontColor : 'black',
+		fontSize : '25dp',
+		fontWeight : 'bold'
+	}
+}
+'#phoneNumber' : {
+	textAlign : 'left',
+	borderColor : 'black',
+	width : Ti.UI.FILL,
+	paddingLeft : '10dp',
+	font : {
+		fontSize : '25dp',
+		fontWeight : 'bold'
+	}
+}
+'#emailAddress' : {
+	textAlign : 'left',
+	borderColor : 'black',
+	width : Titanium.UI.FILL,
+	paddingLeft : '10dp',
+	font : {
+		fontSize : '25dp',
+		fontWeight : 'bold'
+	}
+}

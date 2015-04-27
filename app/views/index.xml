@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container">
+		<ImageView id='emblem'></ImageView>
+		<View id="contactInfo">
+			<Label id='description'>Contact Information</Label>
+		</View>
+		<TableView id="information">
+			<TableViewRow>
+				<Label id='contactName'>Contact Name:</Label>
+			</TableViewRow>
+			<TableViewRow>
+				<Label id="phoneNumber">Phone Number:</Label>
+			</TableViewRow>
+			<TableViewRow>
+				<Label id="email">Email Address:</Label>
+			</TableViewRow>				
+		</TableView>
+		<Button id="backButton" onClick="backButton">Back</Button>
+	</Window>
+</Alloy>
